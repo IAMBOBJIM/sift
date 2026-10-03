@@ -1,0 +1,11 @@
+# Provenance and release status
+
+Bounded inspection of this generic rules-routing candidate against the specified original implementation modules found no meaningful copied implementation blocks. The inspected candidate contains no private gateway validator, editor router, model registry, client, source catalog, transcript, historical measurement or repository history. Conceptual continuity and common implementation patterns remain. This inspection does not establish creation history, authorship, legal ownership or the absence of undisclosed third-party obligations.
+
+The implementation uses only built-in Node.js modules. No third-party package or runtime binary is vendored. Node.js is a separately obtained prerequisite; this candidate makes no redistribution claim for it. Demo policies and text appear fictional, and inspection found no actual-source content. Inspection alone does not establish the fixtures' complete creation history.
+
+No author name, email, account handle, workstation path, remote URL or Git history is included. There is no automatic extraction, account access, telemetry or external transmission. The CLI does not echo evidence text or private paths in diagnostics. Input fingerprints and caller-controlled output labels are still sensitive when used with sensitive real inputs.
+
+**License and release status:** MIT has been adopted for this candidate under user direction, with the approved notice "Copyright (c) 2026 Sift contributors"; see LICENSE. That direction is the basis for the license and label, not an independent verification of legal ownership or the absence of third-party obligations. Publication of this sanitized package has been authorized. The npm package remains marked private to prevent accidental npm publication. This license applies to this package; it does not grant access to or redistribution of private operational material.
+
+If additional source, dependencies or fixtures are proposed later, audit their provenance and permissions before inclusion. Do not add real source material, private audits, operational receipts or history to this candidate. Synthetic test results do not establish semantic accuracy, model parity or a memory guarantee.

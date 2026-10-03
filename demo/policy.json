@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "sift.policy.v1",
+  "id": "fictional-demo",
+  "rules": [
+    {
+      "id": "organize-references",
+      "terms": ["reference list", "research notes"],
+      "route": "research-queue",
+      "nextStep": "Review source coverage before drafting a bounded research proposal."
+    },
+    {
+      "id": "review-tooling",
+      "terms": ["package setup", "dependency setup"],
+      "route": "tool-review",
+      "nextStep": "Identify primary documentation and prerequisites before proposing setup."
+    }
+  ]
+}

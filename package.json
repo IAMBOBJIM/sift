@@ -1,0 +1,15 @@
+{
+  "name": "sift-rules-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small, deterministic evidence-routing demo with explicit abstention.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "demo": "node demo/run.mjs",
+    "test": "node --test --test-isolation=none --test-concurrency=1 test/*.test.mjs"
+  },
+  "license": "MIT"
+}

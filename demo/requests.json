@@ -1,0 +1,34 @@
+[
+  {
+    "label": "synthetic reference match",
+    "expected": "suggest",
+    "request": {
+      "schemaVersion": "sift.request.v1",
+      "evidence": { "text": "This fictional lesson organizes a reference list.", "coverage": { "text": "partial", "audio": "not_attempted", "visual": "not_attempted" } }
+    }
+  },
+  {
+    "label": "synthetic unrelated content",
+    "expected": "abstain",
+    "request": {
+      "schemaVersion": "sift.request.v1",
+      "evidence": { "text": "A fictional gardening note describes watering seeds.", "coverage": { "text": "partial", "audio": "not_attempted", "visual": "not_attempted" } }
+    }
+  },
+  {
+    "label": "synthetic conflicting topics",
+    "expected": "abstain",
+    "request": {
+      "schemaVersion": "sift.request.v1",
+      "evidence": { "text": "The fictional reference list also discusses package setup.", "coverage": { "text": "complete", "audio": "not_attempted", "visual": "not_attempted" } }
+    }
+  },
+  {
+    "label": "synthetic negated cue",
+    "expected": "abstain",
+    "request": {
+      "schemaVersion": "sift.request.v1",
+      "evidence": { "text": "This fictional lesson does not discuss package setup.", "coverage": { "text": "partial", "audio": "not_attempted", "visual": "not_attempted" } }
+    }
+  }
+]
