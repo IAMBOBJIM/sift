@@ -1,5 +1,7 @@
 # Sift
 
+<img src="assets/sift-logo.png" alt="Sift logo: three paths converge into one beside the Sift wordmark" width="640">
+
 **Small rules. Visible decisions. Room to abstain.**
 
 Sift is a dependency-free portfolio demo for routing supplied text evidence with an explicit, caller-owned policy. A single literal rule match suggests a review queue and a next step. Unknown, conflicting or nearby-negated cues abstain. Every result is advisory and binds both the input and policy with SHA-256 hashes.
